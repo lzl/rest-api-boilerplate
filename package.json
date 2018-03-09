@@ -1,0 +1,24 @@
+{
+  "name": "rest-api-boilerplate",
+  "private": true,
+  "scripts": {
+    "dev": "micro-dev -p ${PORT:-5000} src",
+    "start": "micro -p ${PORT:-5000} src",
+    "precommit": "pretty-quick --staged"
+  },
+  "dependencies": {
+    "apollo-fetch": "^0.7.0",
+    "micro": "^9.1.0",
+    "microrouter": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "micro-dev": "^2.2.0",
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1"
+  }
+}
